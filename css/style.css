@@ -1,0 +1,142 @@
+.hfc-settings .header {
+  padding: 30px 30px 0 30px;
+}
+
+.hfc-settings .header .logo {
+  float: left;
+  width: auto;
+  height: 60px;
+  margin-right: 45px;
+}
+
+.hfc-settings .header h1 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  line-height: 1;
+  font-size: 20px;
+}
+
+.hfc-settings .header .content {
+  margin-top: 20px;
+}
+
+.hfc-settings .header .content p {
+  line-height: 1;
+  color: #777;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.hfc-settings .line-break {
+  clear: both;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.hfc-settings .hfc-form {
+  clear: both;
+  padding: 0 30px;
+}
+
+.hfc-settings .hfc-form .btn-submit {
+  cursor: pointer;
+  display: block;
+  margin-top: 20px;
+  border: none;
+  background-color: #58B957;
+  padding: 10px;
+  color: white;
+  width: 210px;
+}
+
+.hfc-label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.hfc_api_key {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #ccc;
+  margin: 0 20px 0 0;
+  padding: 0 5px;
+}
+
+.hfc-settings .footer-text {
+  padding-left: 30px;
+  margin-top: 5px;
+}
+
+.hfc-settings #status{
+  height: 40px;
+  display: inline;
+  padding: 9px;
+}
+
+.hfc-settings .error {
+  color: red;
+  border: 1px solid red;
+  background-color: #EFDEDD;
+}
+
+.hfc-settings .success {
+  color: green;
+  border: 1px solid green;
+  background-color: #E1EBE1;
+}
+
+.hide {
+  display: none;
+}
+
+.footer-background {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  display: inline-block;
+}
+.hfc-footer-logo {
+  width: 22px;
+  height: auto;
+  margin-top: 3px;
+  display: inline-block;
+}
+
+/* Helpers */
+.hfc-cf:before,
+.hfc-cf:after {
+    content: " ";
+    display: table;
+}
+
+.hfc-cf:after {
+    clear: both;
+}
+
+.hfc-cf {
+    *zoom: 1;
+}
+
+.hfc-left {
+  float: left;
+}
+
+.hfc-footer-text {
+  font-size: 18px;
+  margin-top: 0;
+  padding-left: 10px;
+}
+
+.hfc-footer-item {
+  float: left;
+  padding-right: 20px;
+  border-right: 1px solid #ccc;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.hfc-footer-item-last {
+  border-right: 0;
+}
